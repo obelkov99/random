@@ -27,21 +27,27 @@ namespace ConsoleApp15
 
                 try
                 {
-                   z = MiddleOf(a, b, c) / Minimum(a, b, c);
-                    Console.WriteLine("Ответ: " + z);
+                    double z = MiddleOf(a, b, c) / Minimum(a, b, c);
+                    if (Minimum(a, b, c) < 0.00000000001)
+                        Console.WriteLine("Деление на ноль. Ошибка.");
+                    else
+                    Console.WriteLine("Ответ " +z);
 
                 }
-
-                catch (DivideByZeroException dbz)
+                catch (Exception)
                 {
-                    Console.WriteLine("Ошибка. Введите другие числа" + dbz);
+                    Console.WriteLine("Ошибка. Введите другие числа");
                 }
-                
+
+
 
             }
 
-
-            catch (Exception){ Console.WriteLine("Ошибка. Введите другие числа"); }
+            
+            catch (Exception)
+            { 
+                Console.WriteLine("Ошибка. Введите другие числа");
+            }
 
             
         }
@@ -79,19 +85,18 @@ namespace ConsoleApp15
             }
             static double Vvod()
             {
-                double Div = double.Parse(Console.ReadLine());
+            double Div = double.Parse(Console.ReadLine());
                 return Div;
             }
 
-            static public double Minimum(double Aa, double Bb, double Cc)
+            static public double Minimum(double a, double b, double c)
             {
 
-                if (Aa < Bb) if (Aa < Cc) return Aa;
-                    else return Cc;
-                else if (Bb < Cc) return Bb;
-                return Cc;
+                if (a < b) if (a < c) return a;
+                    else return c;
+                else if (b < c) return b;
+                return c;
             }
-        static public double z;
         }
     }
 
