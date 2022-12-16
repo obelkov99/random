@@ -16,35 +16,5 @@
       "Science Fiction",
       "Comedy"
     ]
-  },
-  {
-    "id": 157433,
-    "rating": 6.5,
-    "title": "Pet Sematary",
-    "poster": "https://image.tmdb.org/t/p/w500/7SPhr7Qj39vbnfF9O2qHRYaKHAL.jpg",
-    "overview": "Louis Creed, his wife Rachel and their two children Gage and Ellie move to a rural home where they are welcomed and enlightened about the eerie 'Pet Sematary' located nearby. After the tragedy of their cat being killed by a truck, Louis resorts to burying it in the mysterious pet cemetery, which is definitely not as it seems, as it proves to the Creeds that sometimes dead is better.",
-    "release_date": 1554339600,
-    "school": "Geekbrains",
-    "time": "12 месяцев",
-    "link": "https://www.sravni.ru/kursy/programmirovanie/",
-    "genres": [
-      "Thriller",
-      "Horror"
-    ]
-  },
-    {
-    "id": 157433,
-    "rating": 6.5,
-    "title": "Pet Sematary",
-    "poster": "https://image.tmdb.org/t/p/w500/7SPhr7Qj39vbnfF9O2qHRYaKHAL.jpg",
-    "overview": "Louis Creed, his wife Rachel and their two children Gage and Ellie move to a rural home where they are welcomed and enlightened about the eerie 'Pet Sematary' located nearby. After the tragedy of their cat being killed by a truck, Louis resorts to burying it in the mysterious pet cemetery, which is definitely not as it seems, as it proves to the Creeds that sometimes dead is better.",
-    "release_date": 1554339600,
-    "school": "Geekbrains",
-    "time": "12 месяцев",
-    "link": "https://www.sravni.ru/kursy/programmirovanie/",
-    "genres": [
-      "Thriller",
-      "Horror"
-    ]
   }
 ]
