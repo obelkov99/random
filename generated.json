@@ -1,8 +1,13 @@
 [
  {
-  "poster": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmemepedia.ru%2Fgigachad%2F&psig=AOvVaw1cqowIHJicoNEHtu5ZMNpd&ust=1671559153326000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOD9x6ChhvwCFQAAAAAdAAAAABAj",
   "title": "Да, я слышам про джаву",
+  "lang": "",
+  "school": "",
+  "time": "",
   "rating": "Как ты узнал?"
+  "overview": "",
+  "link: "",
+  "poster": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmemepedia.ru%2Fgigachad%2F&psig=AOvVaw1cqowIHJicoNEHtu5ZMNpd&ust=1671559153326000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOD9x6ChhvwCFQAAAAAdAAAAABAj"
  },
  {
   "title":"Привет! Это сообщение из Json'a",
